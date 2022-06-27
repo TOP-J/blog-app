@@ -24,7 +24,6 @@
     "heroku",
     "express"
   ],
-  {
+  
    "stack": "heroku-22"
-}
 }
