@@ -80,9 +80,9 @@ app.post("/compose", function(req, res){
 
 app.get("/posts/:postName", function(req, res){
   const requestedTitle = _.lowerCase(req.params.postName);
-  console.log(requestedTitle);
+
 Blogs.findOne({title: req.params.postName}, function(err,result){
-console.log(result);
+
   res.render('post',{startingContent:result});
 });
 
@@ -90,7 +90,7 @@ console.log(result);
 });
 app.post('/delete', function(req,res){
 
-  console.log(req.body.button);
+
   Blogs.findOneAndDelete(req.body.button, function(err){
     if (!err) {
       res.redirect('/');

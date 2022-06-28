@@ -3,16 +3,27 @@
 <br>
     <h1>Home</h1>
   <%  startingContent.forEach( function(content){ %>
-    <div class="w-100 p-3 head">
-        <p><%= content.posts.substring(0,100)+ "..."%> by <b><%=content.title%> </b> <a href="/posts/<%=content.title%>">Read more</a></p>
-        <form action="/delete" method="post">
-          <button class="mybtn btn btn-dark"type="submit" value="<%= content._id %>" name="button">delete</button>
-        </form>
+
+<div class="container">
+  <div class="row">
+    <div class="head col-sm-12">
+      <%= content.posts.substring(0,100)+ "..."%> by <b><%=content.title%> </b> <a href="/posts/<%=content.title%>"><span class="read-more">Read more</span></a>
+      <form action="/delete" method="post">
+        <button class="mybtn btn btn-dark"type="submit" value="<%= content._id %>" name="button">delete</button>
+      </form>
     </div>
+  </div>
+</div>
+<br>
 
 
-  <%  }); %>
-    <p>  <%= startingContent.posts%></p>
+
+
+
+    <%  }); %>
+
+
+
 
 
 

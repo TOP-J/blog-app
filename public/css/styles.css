@@ -2,20 +2,23 @@ html {
   min-height: 100%;
   position: relative;
 }
+body{
+  margin:0%;
 
+}
 .container-fluid {
     padding-top: 40px;
     padding-bottom: 40px;
     padding-left: 128px;
 }
 .navbar {
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 4%;
+    padding-bottom: 4%;
     border: 0;
     border-radius: 0;
     margin-bottom: 0;
-    font-size: 12px;
-    letter-spacing: 5px;
+    font-size: 1rem;
+    letter-spacing: 0.3rem;
 }
 .navbar-nav  li a:hover {
     color: #1abc9c !important;
@@ -25,8 +28,8 @@ html {
 	padding-bottom: 60px;
 }
 .family{
-  width: 200px;
-  height: 150px;
+  width: 50%;
+  height: 45%;
   border-radius: 30px;
 
 }
@@ -34,12 +37,14 @@ html {
   margin-right: 20rem;
 }
 .head{
-  width: 50%;
-  background-color: #E9EFC0;
-  border-radius: 20px ;
-  padding: 20px;
-  margin-bottom: 4rem;
   font-family:"Goudy Bookletter 1911", sans-serif;
+  background-color: #E9EFC0;
+  border-radius: 1rem;
+  font-size: 2rem;
+}
+.about-font{
+  font-family:"Goudy Bookletter 1911", sans-serif;
+  font-size: 2rem;
 }
 .aboutimage{
   width: 100%;
@@ -49,10 +54,14 @@ html {
 h1{
   font-family: "Gill Sans", sans-serif;
   color: #1F4690;
+  font-size: 3rem;
 }
 .mybtn{
   display:inline-block;
-  margin-left: 90%;
+  margin-left: 85%;
+}
+.read-more{
+  font-size: 1.2rem;
 }
 .footer {
 	position: absolute;
