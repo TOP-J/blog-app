@@ -17,7 +17,7 @@ body{
     border: 0;
     border-radius: 0;
     margin-bottom: 0;
-    font-size: 1rem;
+    font-size: 2rem;
     letter-spacing: 0.3rem;
 }
 .navbar-nav  li a:hover {
@@ -40,11 +40,11 @@ body{
   font-family:"Goudy Bookletter 1911", sans-serif;
   background-color: #E9EFC0;
   border-radius: 1rem;
-  font-size: 2rem;
+  font-size: 4rem;
 }
 .about-font{
   font-family:"Goudy Bookletter 1911", sans-serif;
-  font-size: 2rem;
+  font-size: 4rem;
 }
 .aboutimage{
   width: 100%;
@@ -58,11 +58,12 @@ h1{
 }
 .mybtn{
   display:inline-block;
-  margin-left: 85%;
+  margin-left: 95%;
 }
 .read-more{
-  font-size: 1.2rem;
+  font-size: 1.5rem;
 }
+
 .footer {
 	position: absolute;
 	text-align: center;
